@@ -1,0 +1,47 @@
+canvas{
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 15px #eee;
+
+}
+
+body{
+    margin: 1em; 
+    font-family: Arial;
+    color: #2d2e31;
+}
+
+.contenido{
+   max-width: 423px;
+   margin: 0 auto;
+}
+
+.controles{
+   margin: 1em 0;
+   padding: 0.3em 0; 
+   background: #f7f7f9; 
+   border: 1px solid #ececef; 
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+}
+
+.cont{
+   text-align: center; 
+   margin-bottom: 1em;
+}
+
+.controles>*{
+   margin-right: 1em;
+}
+.sep{
+   border-left: 1px solid #ccc;
+   margin-right: 0;
+   padding-left: 0.6em;
+}
+
+#textInput{
+   width: 3em;
+   text-align: center;
+}

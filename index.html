@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>trabalho de frontend</title>
+</head>
+<body>
+    <div class="contenido">
+        <h1>fractais con javascript</h1>
+        <h2>triangulo de ...?</h2>
+        <div class="controles">
+            <label for="niveles">Nivel</label>
+            <input id="niveles" value="0"  type="range" min="0" 
+            max="10" step="1" onchange="actualizarFractal(this.value)">
+        <input value="0" min="0" max="10" step="1"  type="number" 
+        id="textInput" onchange="actualizarFractal(this.value)">
+            <div class="sep">
+                <input type="checkbox" onclick="Animacion(this.checked)" id="animar">
+                <label for="animar">Animação</label>
+            </div>
+        </div>
+        <div class="cont">quantidade de triangulos:<span id="cant">1</span></div>
+        <canvas id="myCanvas" width="401" height="401"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
